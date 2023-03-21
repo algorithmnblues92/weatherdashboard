@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Hanalei&family=Monoton&family=Righteous&family=Shadows+Into+Light&family=Shrikhand&family=Vast+Shadow&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Righteous", sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+h1 {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 0;;
+    border-radius: 1rem 1rem 0 0;
+    background-color: lightskyblue;
+    font-size: 60px;
+}
+
+
+#topBar {
+ display: flex;
+ width:100%;
+ height: 200px;
+ background-color:aqua;
+ font-size: 40px;
+ background-image: url("https://onlineartschool.com/wp-content/uploads/2018/01/Cloud-Tutorial-1-1024x597.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+#mainContainer {
+ display:flex;
+ align-self: flex-start;
+ width: 100%;
+ height: 800px;
+ background-color: lightskyblue;
+}
+
+#sideBar {
+ display: flex;
+ flex-direction: column;
+ width: 25%;
+ height: 800px;
+ background-color: lightskyblue;
+}
+
+#searchField {
+ width: 100%;
+}
+
+#searchButtonHTML {
+    width: 100%;
+    height: 60px;
+    background-color: mediumspringgreen;
+    font-family: 'shrikhand';
+}
+
+#mainBar {
+ width: 90%;
+ height: 800px;
+ background-color: springgreen;
+ border-radius: 2rem 0 0 2rem;
+}
+
+#forecast {
+ display: flex;
+ flex-direction: column;
+ width: 95%;
+ height: 300px;
+ background-color: springgreen;
+ margin-top: 30px;
+ margin-left: 30px;
+}
+
+#title4Forecast {
+    width: 400px;
+    font-size: 40px;
+    border-bottom: 4px solid black;
+}
+
+#cityNameAndDateandicon {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+ #weatherIcon {
+    width: 40px;
+    height:40px;
+}
+
+#weatherIconForecast {
+    width: 40px;
+    height:40px;
+} 
+
+#fiveDayForecast {
+ display: flex;
+ flex-direction: row;
+ width: 90%;
+ height: 250px;
+ background-color: springgreen;
+ margin-left: 30px;
+}
+
+#titleFiveDayForecast {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+#aboutMeInfo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: lightskyblue;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-radius: 0 0 1rem 1rem;
+}
